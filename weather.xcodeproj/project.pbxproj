@@ -13,6 +13,12 @@
 		E3099E6E2C44128E00D42DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3099E6D2C44128E00D42DF3 /* Assets.xcassets */; };
 		E3099E712C44128E00D42DF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3099E702C44128E00D42DF3 /* Preview Assets.xcassets */; };
 		E3099E7C2C44128E00D42DF3 /* weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3099E7B2C44128E00D42DF3 /* weatherTests.swift */; };
+		E3099E862C4412AA00D42DF3 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3099E852C4412AA00D42DF3 /* Weather.swift */; };
+		E3099E882C44135500D42DF3 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3099E872C44135500D42DF3 /* ImmersiveView.swift */; };
+		E3099E8A2C44172300D42DF3 /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3099E892C44172300D42DF3 /* WeatherForecast.swift */; };
+		E3099E932C441B3900D42DF3 /* RainParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3099E912C441B3900D42DF3 /* RainParticle.sks */; };
+		E3099E942C441B3900D42DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3099E922C441B3900D42DF3 /* Assets.xcassets */; };
+		E3099E962C441B4E00D42DF3 /* SnowParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3099E952C441B4E00D42DF3 /* SnowParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 		E3099E722C44128E00D42DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3099E772C44128E00D42DF3 /* weatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3099E7B2C44128E00D42DF3 /* weatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherTests.swift; sourceTree = "<group>"; };
+		E3099E852C4412AA00D42DF3 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		E3099E872C44135500D42DF3 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		E3099E892C44172300D42DF3 /* WeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		E3099E912C441B3900D42DF3 /* RainParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RainParticle.sks; sourceTree = "<group>"; };
+		E3099E922C441B3900D42DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3099E952C441B4E00D42DF3 /* SnowParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,9 @@
 		E3099E592C44128D00D42DF3 = {
 			isa = PBXGroup;
 			children = (
+				E3099E952C441B4E00D42DF3 /* SnowParticle.sks */,
+				E3099E912C441B3900D42DF3 /* RainParticle.sks */,
+				E3099E922C441B3900D42DF3 /* Assets.xcassets */,
 				E3099E642C44128D00D42DF3 /* weather */,
 				E3099E652C44128D00D42DF3 /* Packages */,
 				E3099E7A2C44128E00D42DF3 /* weatherTests */,
@@ -80,9 +95,12 @@
 			children = (
 				E3099E692C44128D00D42DF3 /* weatherApp.swift */,
 				E3099E6B2C44128D00D42DF3 /* ContentView.swift */,
+				E3099E852C4412AA00D42DF3 /* Weather.swift */,
+				E3099E872C44135500D42DF3 /* ImmersiveView.swift */,
 				E3099E6D2C44128E00D42DF3 /* Assets.xcassets */,
 				E3099E722C44128E00D42DF3 /* Info.plist */,
 				E3099E6F2C44128E00D42DF3 /* Preview Content */,
+				E3099E892C44172300D42DF3 /* WeatherForecast.swift */,
 			);
 			path = weather;
 			sourceTree = "<group>";
@@ -196,7 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3099E712C44128E00D42DF3 /* Preview Assets.xcassets in Resources */,
+				E3099E962C441B4E00D42DF3 /* SnowParticle.sks in Resources */,
 				E3099E6E2C44128E00D42DF3 /* Assets.xcassets in Resources */,
+				E3099E932C441B3900D42DF3 /* RainParticle.sks in Resources */,
+				E3099E942C441B3900D42DF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3099E6C2C44128D00D42DF3 /* ContentView.swift in Sources */,
+				E3099E8A2C44172300D42DF3 /* WeatherForecast.swift in Sources */,
 				E3099E6A2C44128D00D42DF3 /* weatherApp.swift in Sources */,
+				E3099E882C44135500D42DF3 /* ImmersiveView.swift in Sources */,
+				E3099E862C4412AA00D42DF3 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
